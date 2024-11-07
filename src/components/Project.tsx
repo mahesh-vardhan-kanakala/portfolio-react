@@ -9,6 +9,7 @@ import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
+import mock11 from '../assets/images/mock11.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -19,7 +20,7 @@ function Project() {
                 {/* Project 1 */}
                 <div className="project">
                     <a href="https://github.com/mahesh-vardhan-kanakala/DevSecOps-netflix" target="_blank" rel="noreferrer">
-                        <img src={mock10} className="zoom" alt="DevSecOps-netflix" width="100%" />
+                        <img src={mock11} className="zoom" alt="DevSecOps-netflix" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/DevSecOps-netflix" target="_blank" rel="noreferrer">
                         <h2>DevSecOps-netflix</h2>
@@ -30,7 +31,7 @@ function Project() {
                 {/* Project 2 */}
                 <div className="project">
                     <a href="https://github.com/mahesh-vardhan-kanakala/k8-mario" target="_blank" rel="noreferrer">
-                        <img src={mock09} className="zoom" alt="Super Mario Game" width="100%" />
+                        <img src={mock10} className="zoom" alt="Super Mario Game" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/k8-mario" target="_blank" rel="noreferrer">
                         <h2>Super Mario Game</h2>
@@ -41,7 +42,7 @@ function Project() {
                 {/* Project 3 */}
                 <div className="project">
                     <a href="https://github.com/mahesh-vardhan-kanakala/Ai-Image-Generator" target="_blank" rel="noreferrer">
-                        <img src={mock08} className="zoom" alt="AI Image Generator" width="100%" />
+                        <img src={mock09} className="zoom" alt="AI Image Generator" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/Ai-Image-Generator" target="_blank" rel="noreferrer">
                         <h2>AI-Image Generator</h2>
@@ -52,7 +53,7 @@ function Project() {
                 {/* Project 4 */}
                 <div className="project">
                     <a href="https://gitlab.com/devops7783952/cicdtf" target="_blank" rel="noreferrer">
-                        <img src={mock07} className="zoom" alt="CICD Game" width="100%" />
+                        <img src={mock08} className="zoom" alt="CICD Game" width="100%" />
                     </a>
                     <a href="https://gitlab.com/devops7783952/cicdtf" target="_blank" rel="noreferrer">
                         <h2>CICDTF: 2D Shooting Game</h2>
@@ -63,7 +64,7 @@ function Project() {
                 {/* Project 5 */}
                 <div className="project">
                     <a href="https://github.com/mahesh-vardhan-kanakala/2048-gh-pages" target="_blank" rel="noreferrer">
-                        <img src={mock06} className="zoom" alt="2048 Game" width="100%" />
+                        <img src={mock07} className="zoom" alt="2048 Game" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/2048-gh-pages" target="_blank" rel="noreferrer">
                         <h2>2048 Game Clone</h2>
@@ -74,7 +75,7 @@ function Project() {
                 {/* Project 6 */}
                 <div className="project">
                     <a href="https://github.com/mahesh-vardhan-kanakala/Tetris-main" target="_blank" rel="noreferrer">
-                        <img src={mock05} className="zoom" alt="Tetris Game with CI/CD" width="100%" />
+                        <img src={mock06} className="zoom" alt="Tetris Game with CI/CD" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/Tetris-main" target="_blank" rel="noreferrer">
                         <h2>Tetris Game Deployments with ArgoCD, Terraform, and Jenkins</h2>
@@ -85,7 +86,7 @@ function Project() {
                 {/* Project 7 */}
                 <div className="project">
                     <a href="https://expense-tracker-gules-gamma.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src={mock04} className="zoom" alt="Expense Tracker" width="100%" />
+                        <img src={mock05} className="zoom" alt="Expense Tracker" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/Expense-Tracker" target="_blank" rel="noreferrer">
                         <h2>Expense Tracker</h2>
@@ -96,7 +97,7 @@ function Project() {
                 {/* Project 8 */}
                 <div className="project">
                     <a href="https://count-down-timer-o7xn.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src={mock03} className="zoom" alt="CountDown Timer" width="100%" />
+                        <img src={mock04} className="zoom" alt="CountDown Timer" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/CountDown-Timer" target="_blank" rel="noreferrer">
                         <h2>CountDown Timer</h2>
@@ -107,7 +108,7 @@ function Project() {
                 {/* Project 9 */}
                 <div className="project">
                     <a href="https://todo-reactjs-alpha.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src={mock02} className="zoom" alt="TODO React App" width="100%" />
+                        <img src={mock03} className="zoom" alt="TODO React App" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/TODO-REACTJS" target="_blank" rel="noreferrer">
                         <h2>TODO React</h2>
@@ -118,12 +119,23 @@ function Project() {
                 {/* Project 10 */}
                 <div className="project">
                     <a href="https://tetri-game-react.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src={mock01} className="zoom" alt="Tetris Game" width="100%" />
+                        <img src={mock02} className="zoom" alt="Tetris Game" width="100%" />
                     </a>
                     <a href="https://github.com/mahesh-vardhan-kanakala/Tetri-Game-React" target="_blank" rel="noreferrer">
                         <h2>Tetris Game Using React</h2>
                     </a>
                     <p>A fully functional Tetris game built using React and CSS. Features include a scoring system and mobile-responsive design.</p>
+                </div>
+
+                {/* Project 11 */}
+                <div className="project">
+                    <a href="https://github.com/mahesh-vardhan-kanakala/portfolio-react" target="_blank" rel="noreferrer">
+                        <img src={mock01} className="zoom" alt="Portfolio" width="100%" />
+                    </a>
+                    <a href="https://github.com/mahesh-vardhan-kanakala/portfolio-react" target="_blank" rel="noreferrer">
+                        <h2>Portfolio - react</h2>
+                    </a>
+                    <p>Created Fully Functional Portfolio Using Reactjs</p>
                 </div>
             </div>
         </div>
